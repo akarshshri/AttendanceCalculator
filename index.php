@@ -171,7 +171,7 @@ $page_hits = $query->fetchAll();
 
 $total_hits = 0;
 			foreach($page_hits as $ind_page){
-				echo '<tr><td><strong>'.Visitors.'</strong>:</td>
+				echo '<tr><td><strong> Visitors </strong>:</td>
 				
 				<td>'.$ind_page['count'].'</td></tr>';
 				$total_hits += $ind_page['count'];
