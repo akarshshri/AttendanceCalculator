@@ -105,22 +105,22 @@ require_once 'calculator.php'
  <div class="col-sm-4">
       <p class="text-center"><strong>Aviraj</strong></p><br>
       <a href="#aviraj" data-toggle="collapse">
-        <img src="../images/aviraj2.jpg" class="img-circle person" alt="Aviraj" width="400" height="250">
+        <img src="https://thenypost.files.wordpress.com/2014/09/bear1.jpg" class="img-circle person" alt="Aviraj" width="400" height="250">
       </a>
       <div id="aviraj" class="collapse">
         <p>Aviraj Chatterjee</p>
-        <p>Currently final year student of BSc. Visual Communication. Helped in the discovering the formula. </p>
+        <p>Currently final year student of BSc. Visual Communication. Some more detail about the person. </p>
       </div>
     </div>
 
     <div class="col-sm-4">
       <p class="text-center"><strong>Akarsh</strong></p><br>
       <a href="#anon" data-toggle="collapse">
-        <img src="../images/akarsh.jpg" class="img-circle person" alt="Akarsh" width="400" height="255">
+        <img src="https://thumbs-prod.si-cdn.com/3clrGKL7TfGo3TgGCVB2X5ofxts=/800x600/filters:no_upscale():focal(1805x927:1806x928)/https://public-media.si-cdn.com/filer/36/68/3668eb74-68c6-4357-9526-7c5614206782/koala.jpg" class="img-circle person" alt="Akarsh" width="400" height="255">
       </a>
       <div id="anon" class="collapse">
         <p>Akarsh Shrivastava</p>
-        <p>Developed and Customised the website. Helped in discovering the formula for calculating.  </p>
+        <p>Developed and Customised the website.  </p>
       </div>
     </div>
   </div>
