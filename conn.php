@@ -3,13 +3,14 @@
 ### EDIT HERE ###
 
 // DB CONNECT INFO
-$db_host = "localhost";
-$db_name = "attendex";
-$db_user = "root";
-$db_pw = "";
+$db_host = "localhost"; //hostname
+$db_name = "attendex"; //database name
+$db_user = "root"; //username
+$db_pw = ""; //password of database
 
 // DB TABLE INFO
-$GLOBALS['hits_table_name'] = "Hits_Table";
+#Only change if you have edited the table names#
+$GLOBALS['hits_table_name'] = "Hits_Table"; 
 $GLOBALS['info_table_name'] = "Info_Table";
 
 ### STOP EDITING HERE ###
