@@ -34,6 +34,14 @@
     white-space: nowrap;
 }
 
+@media (max-width: 600px) {
+  .tension{
+    margin-left: -50%;
+  }
+  .images {
+    margin-left: -50%;
+  }
+}
 
   .rounded {
   border-radius: 10px;

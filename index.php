@@ -101,8 +101,8 @@ require_once 'calculator.php'
 
   <p>We are final year students studying at SRM University. This site has been created for comparison purpose only. Not affiliated with the university in any way.</p>
   <br>
-<div class="col" style="padding: 0px 100px 0px 400px;">
- <div class="col-sm-4">
+<div class="images" style="padding: 0px 100px 0px 400px;" id="images">
+ <div class="col-sm-4 tension" >
       <p class="text-center"><strong>Aviraj</strong></p><br>
       <a href="#aviraj" data-toggle="collapse">
         <img src="https://thenypost.files.wordpress.com/2014/09/bear1.jpg" class="img-circle person" alt="Aviraj" width="400" height="250">
@@ -113,7 +113,7 @@ require_once 'calculator.php'
       </div>
     </div>
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 tension">
       <p class="text-center"><strong>Akarsh</strong></p><br>
       <a href="#anon" data-toggle="collapse">
         <img src="https://thumbs-prod.si-cdn.com/3clrGKL7TfGo3TgGCVB2X5ofxts=/800x600/filters:no_upscale():focal(1805x927:1806x928)/https://public-media.si-cdn.com/filer/36/68/3668eb74-68c6-4357-9526-7c5614206782/koala.jpg" class="img-circle person" alt="Akarsh" width="400" height="255">
