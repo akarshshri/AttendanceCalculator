@@ -40,12 +40,6 @@ require 'meta.inc.php';
 			<br>
                        <div class="wrapper">
 			
-<script type="text/javascript" src="//ylx-1.com/bnr.php?section=General&pub=878284&format=468x60&ga=g"></script>
-<noscript><a href="https://yllix.com/publishers/878284" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/468x60.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" /></a></noscript>
-
-<script type="text/javascript" src="//ylx-1.com/bnr.php?section=General&pub=878284&format=468x60&ga=g"></script>
-<noscript><a href="https://yllix.com/publishers/878284" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/468x60.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" /></a></noscript>
-			
 				<br><button type="submit" class="btn  btn-success rounded" >Submit</button>
 				
 				<button type="reset" class="btn btn-warning rounded">Reset</button><br />
