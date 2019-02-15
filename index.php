@@ -36,27 +36,7 @@ function showFallbackImage(){
 </script>
      
 
-    <script>
-      if( window.canRunAds === undefined ){
-        // adblocker detected, show fallback
-        showFallbackImage();
-      }
-    </script>
 
-<script>
-$(document).ready( function() {
-  window.setTimeout( function() {
-    var bottomad = $('#bottomAd');
-    if (bottomad.length == 1) {
-      if (bottomad.height() == 0) {
-       document.write(5 + 6);
-      } else {
-        // no adblocker
-      }
-    }      
-  }, 1);
-}
-</script>
 
 
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="50" >

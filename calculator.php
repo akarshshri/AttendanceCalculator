@@ -92,9 +92,9 @@ if(isset($_POST['present']) && isset($_POST['days'])){
 				
 			}else{
 				echo '<div  class="container-fluid text-center bg-1 top" style="background-color:black;">';
-				echo '<br><br><br>Total Attendance should not be more than 100<br>';
+				echo '<br><br><br>Total Attendance should not be more than 100<br><br>';
 				echo '<a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
-				<span class="glyphicon glyphicon-chevron-up"></span>';
+				<span class="glyphicon glyphicon-chevron-up"></span></a>';
 				echo '<br><br><br></div>';
 				echo '**For Reference Only!**';
 			}
@@ -135,9 +135,9 @@ if(isset($_POST['present']) && isset($_POST['days'])){
 	
 	}else{
 			echo '<div  class="container-fluid text-center bg-1 top" style="background-color:black;">';
-			echo '<br><br><br>Check the Details Again and Try Again<br>';
+			echo '<br><br><br>Check the Details Again and Try Again<br><br>';
 			echo '<a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
-		<span class="glyphicon glyphicon-chevron-up"></span>';
+		<span class="glyphicon glyphicon-chevron-up"></span></a>';
 			echo '<br><br><br></div>';
 		
 	}
