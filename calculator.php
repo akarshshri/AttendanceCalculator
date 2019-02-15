@@ -22,9 +22,9 @@ if(isset($_POST['present']) && isset($_POST['days'])){
 	### STOP HERE ###
 
 	@$attend_percent = $_POST['attend_percent'];
-	$absent_till_date = $total - $present;
-	$should_be_present_hours = intval(($number_of_working_days * $lectures_in_a_day) * (100 - $minimum_percentage_require) / 100);
-	$allowed_absent = $should_be_present_hours - $absent_till_date;
+	@$absent_till_date = $total - $present;
+	@$should_be_present_hours = intval(($number_of_working_days * $lectures_in_a_day) * (100 - $minimum_percentage_require) / 100);
+	@$allowed_absent = $should_be_present_hours - $absent_till_date;
 	if(!empty($_POST['days']) && !empty($_POST['present']) && !empty($_POST['total']) ){ //If All Boxes are Filled
 
 		$new_total = $total + $days;
