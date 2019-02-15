@@ -5,7 +5,7 @@ require 'meta.inc.php';
 
 
 <?php
-if(isset($_POST['present']) && isset($_POST['days'])){
+if(isset($_POST['present']) && isset($_POST['days']) && $_POST['days']>= 0 && $_POST['present'] >= 0){
 	$days = $_POST['days'];
 	$present = $_POST['present'];
 	$total = $_POST['total'];
@@ -137,10 +137,16 @@ if(isset($_POST['present']) && isset($_POST['days'])){
 			echo '<div  class="container-fluid text-center bg-1 top" style="background-color:black;">';
 			echo '<br><br><br>Check the Details Again and Try Again<br><br>';
 			echo '<a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
-		<span class="glyphicon glyphicon-chevron-up"></span></a>';
+			<span class="glyphicon glyphicon-chevron-up"></span></a>';
 			echo '<br><br><br></div>';
 		
 	}
+}else{
+	echo '<div  class="container-fluid text-center bg-1 top" style="background-color:black;">';
+	echo '<br><br><br>Check the Details Again and Try Again<br><br>';
+	echo '<a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
+	<span class="glyphicon glyphicon-chevron-up"></span></a>';
+	echo '<br><br><br></div>';
 }
 
 ?>
