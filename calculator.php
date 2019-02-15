@@ -67,7 +67,7 @@ if(isset($_POST['present']) && isset($_POST['days']) && $_POST['days']>= 0 && $_
 			$new_Attendance = ($present/$new_total)*100;
 			$difference = $current_Attendance - $new_Attendance;
 			$absent_till_date = $total - $present;
-			$should_be_present_hours = 110;
+			@$should_be_present_hours = intval(($number_of_working_days * $lectures_in_a_day) * (100 - $minimum_percentage_require) / 100);
 			$allowed_absent = $should_be_present_hours - $absent_till_date;
 			
 			echo '<div  class="container-fluid text-center bg-1 top" style="background-color:black;">';
@@ -76,13 +76,13 @@ if(isset($_POST['present']) && isset($_POST['days']) && $_POST['days']>= 0 && $_
 			$difference = sprintf('%0.2f', $difference  );
 			$allowed_absent = $allowed_absent - $days;
 			//$allowed_absent = intval($allowed_absent);
-			$allowed_absent_days = $allowed_absent/6;
+			$allowed_absent_days = $allowed_absent/$lectures_in_a_day;
 			$allowed_absent_days = sprintf('%0.2f', $allowed_absent_days  );
 			echo '<br><br><br>';
-			if($absent_till_date<=110){
+			if($absent_till_date<=$should_be_present_hours){
 				echo 'You can be Absent for <b>'.$allowed_absent.'</b> lectures for exact 75% attendance at the end of the year*<br />';
 				echo 'Roughly around <b>'.$allowed_absent_days .' days</b>*.<br />';
-			}elseif($absent_till_date>110){
+			}elseif($absent_till_date>$should_be_present_hours){
 				echo 'Attendance can\'t reach 75%. Apply Medical certificate*.<br />';
 			}
 
