@@ -13,17 +13,7 @@ require 'meta.inc.php';
 					return true;
 				}
 
-				function OnButton2()
-				{
-					document.Form2.action = "weqe.php";
-					//document.Form2.action = "//ylx-4.com/mobile_redir.php?section=General&pub=878284&ga=g&desktop=1"
-					//document.Form2.target = "_blank";    // Open in a new window
 
-					document.Form1.submit();             // Submit the page
-
-
-					return true;
-				}
 				
 			</script>
 	<noscript>You need Javascript enabled for this to work</noscript>
@@ -68,16 +58,13 @@ require 'meta.inc.php';
 			<br>
                        <div class="wrapper">
 			
-				<input type="button" value="Submit" class="btn  btn-success rounded" onclick="OnButton1(); OnButton2();"></input>
+				<input type="button" value="Submit" class="btn  btn-success rounded" onclick="OnButton1();"></input>
 				
 				<button type="reset" class="btn btn-warning rounded">Reset</button>
 			</div>
 			<!-- Advertisement Script -->
 			
-			<script type="text/javascript" src="//ylx-1.com/bnr.php?section=General&pub=878284&format=160x600&ga=g"></script>
-	<noscript><a href="https://yllix.com/publishers/878284" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" /></a></noscript>
-			<script>
-			
+
 			
 			$('#myModal').on('hidden.bs.modal', function() {
 			  this.modal('show');
